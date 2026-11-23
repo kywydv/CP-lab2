@@ -1,0 +1,16 @@
+    98.19%  O3       O3                 [.] matmul
+            |
+            ---matmul
+               main
+               0x7d12a6e2a601
+               __libc_start_main
+               _start
+     0.32%  O3       [kernel.kallsyms]  [k] 0xffffffff81001320
+     0.26%  O3       [kernel.kallsyms]  [k] 0xffffffff81594b24
+     0.26%  O3       [kernel.kallsyms]  [k] 0xffffffff82250ed0
+     0.26%  O3       [kernel.kallsyms]  [k] 0xffffffff822381db
+     0.25%  O3       [kernel.kallsyms]  [k] 0xffffffff815148f0
+     0.25%  O3       [kernel.kallsyms]  [k] 0xffffffff82250dbb
+     0.11%  O3       [kernel.kallsyms]  [k] 0xffffffff81596f10
+     0.06%  O3       [kernel.kallsyms]  [k] 0xffffffff82250fa4
+     0.03%  O3       O3                 [.] init

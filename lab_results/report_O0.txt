@@ -1,0 +1,21 @@
+    98.89%  O0       O0                    [.] matmul
+            |
+            ---matmul
+               main
+               0x7d012fa2a601
+               __libc_start_main
+               _start
+     0.43%  O0       O0                    [.] init
+     0.11%  O0       [kernel.kallsyms]     [k] 0xffffffff8139c6ee
+     0.11%  O0       [kernel.kallsyms]     [k] 0xffffffff81001320
+     0.05%  O0       [kernel.kallsyms]     [k] 0xffffffff82250da0
+     0.05%  O0       [kernel.kallsyms]     [k] 0xffffffff8123a422
+     0.05%  O0       [kernel.kallsyms]     [k] 0xffffffff8124c3e7
+     0.05%  O0       [kernel.kallsyms]     [k] 0xffffffff812e6549
+     0.05%  O0       [kernel.kallsyms]     [k] 0xffffffff81ce32b0
+     0.05%  O0       [kernel.kallsyms]     [k] 0xffffffff8139c5b2
+     0.05%  O0       [kernel.kallsyms]     [k] 0xffffffff82219be1
+     0.05%  O0       [kernel.kallsyms]     [k] 0xffffffff815d5cac
+     0.02%  O0       [kernel.kallsyms]     [k] 0xffffffff815c4102
+     0.01%  O0       [kernel.kallsyms]     [k] 0xffffffff8154b032
+     0.01%  O0       ld-linux-x86-64.so.2  [.] 0x0000000000010eb0

@@ -1,0 +1,24 @@
+0.000000
+
+ Performance counter stats for './O3s 900':
+
+                 1      context-switches                 #     12.2 cs/sec  cs_per_second     
+                 0      cpu-migrations                   #      0.0 migrations/sec  migrations_per_second
+              2443      page-faults                      #  29923.2 faults/sec  page_faults_per_second
+             81.64 msec task-clock                       #      0.8 CPUs  CPUs_utilized       
+          45799455      L1-dcache-load-misses            #     24.2 %  l1d_miss_rate            (90.22%)
+            833563      branch-misses                    #      0.8 %  branch_miss_rate         (80.39%)
+         103118477      branches                         #   1263.0 M/sec  branch_frequency     (80.45%)
+         310393577      cpu-cycles                       #      3.8 GHz  cycles_frequency       (80.38%)
+         577402361      instructions                     #      1.9 instructions  insn_per_cycle  (80.39%)
+                        TopdownL1                        #     41.1 %  tma_backend_bound      
+                                                         #     18.2 %  tma_bad_speculation      (68.56%)
+                                                         #      7.4 %  tma_frontend_bound       (78.46%)
+                                                         #     33.4 %  tma_retiring             (88.17%)
+
+       0.082970761 seconds time elapsed
+
+       0.075587000 seconds user
+       0.003978000 seconds sys
+
+

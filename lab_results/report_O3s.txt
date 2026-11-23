@@ -1,0 +1,25 @@
+    96.16%  O3s      O3s                   [.] matmul
+            |
+            ---matmul
+               main
+               0x71391042a601
+               __libc_start_main
+               _start
+     0.95%  O3s      [kernel.kallsyms]     [k] 0xffffffff81001320
+            |
+            ---0xffffffff81001320
+               0x7139105a8553
+               main
+               0x71391042a601
+               __libc_start_main
+               _start
+     0.88%  O3s      libc.so.6             [.] 0x00000000001a84c7
+            |
+            ---0x7139105a84c7
+               main
+               0x71391042a601
+               __libc_start_main
+               _start
+     0.74%  O3s      [kernel.kallsyms]     [k] 0xffffffff81001c00
+            |
+            ---0xffffffff81001c00

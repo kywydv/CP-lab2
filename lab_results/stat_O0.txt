@@ -1,0 +1,24 @@
+0.000000
+
+ Performance counter stats for './O0 900':
+
+                 9      context-switches                 #      4.8 cs/sec  cs_per_second     
+                 0      cpu-migrations                   #      0.0 migrations/sec  migrations_per_second
+              2443      page-faults                      #   1311.7 faults/sec  page_faults_per_second
+           1862.48 msec task-clock                       #      1.0 CPUs  CPUs_utilized       
+         768272064      L1-dcache-load-misses            #      7.5 %  l1d_miss_rate            (89.91%)
+            857814      branch-misses                    #      0.1 %  branch_miss_rate         (79.82%)
+         738083375      branches                         #    396.3 M/sec  branch_frequency     (79.81%)
+        7386225583      cpu-cycles                       #      4.0 GHz  cycles_frequency       (79.82%)
+       20512722678      instructions                     #      2.8 instructions  insn_per_cycle  (79.95%)
+                        TopdownL1                        #     10.6 %  tma_backend_bound      
+                                                         #     72.8 %  tma_bad_speculation      (70.31%)
+                                                         #      1.0 %  tma_frontend_bound       (80.19%)
+                                                         #     15.6 %  tma_retiring             (90.06%)
+
+       1.863677676 seconds time elapsed
+
+       1.847437000 seconds user
+       0.015995000 seconds sys
+
+
